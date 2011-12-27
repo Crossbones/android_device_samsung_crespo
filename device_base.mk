@@ -247,7 +247,7 @@ PRODUCT_COPY_FILES += \
 
 # Kernel lib setup
 PRODUCT_COPY_FILES += \
-        /device/samsung/crespo/libhw/lights.s5pc110.so:system/lib/hw/lights.s5pc110.so
+        device/samsung/crespo/libhw/lights.s5pc110.so:system/lib/hw/lights.s5pc110.so
 
 # Kernel setup
 ifeq ($(TARGET_PREBUILT_KERNEL),)
