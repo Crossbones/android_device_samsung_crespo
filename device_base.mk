@@ -143,6 +143,11 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
 	camera.herring
 
+# Camera/Video Effects
+PRODUCT_COPY_FILES += \
+        device/samsung/crespo/custom/system/media/LMprec_508.emd:system/media/LMprec_508.emd \
+        device/samsung/crespo/custom/system/media/PFFprec_600.emd:system/media/PFFprec_600.emd
+
 # audio
 PRODUCT_PACKAGES += \
 	audio_policy.herring \
@@ -246,8 +251,8 @@ PRODUCT_COPY_FILES += \
         device/samsung/crespo/modules/xc5000.ko:system/modules/xc5000.ko
 
 # Kernel lib setup
-PRODUCT_COPY_FILES += \
-        device/samsung/crespo/libhw/lights.s5pc110.so:system/lib/hw/lights.s5pc110.so
+#PRODUCT_COPY_FILES += \
+#        device/samsung/crespo/libhw/lights.s5pc110.so:system/lib/hw/lights.s5pc110.so
 
 # Kernel setup
 ifeq ($(TARGET_PREBUILT_KERNEL),)
