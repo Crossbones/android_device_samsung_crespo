@@ -244,7 +244,6 @@ PRODUCT_COPY_FILES += \
         device/samsung/crespo/modules/tda18271.ko:system/modules/tda18271.ko \
         device/samsung/crespo/modules/tea5761.ko:system/modules/tea5761.ko \
         device/samsung/crespo/modules/tea5767.ko:system/modules/tea5767.ko \
-        device/samsung/crespo/modules/tl2796_crespo_voodoo.ko:system/modules/tl2796_crespo_voodoo.ko \
         device/samsung/crespo/modules/tuner-simple.ko:system/modules/tuner-simple.ko \
         device/samsung/crespo/modules/tuner-types.ko:system/modules/tuner-types.ko \
         device/samsung/crespo/modules/tuner-xc2028.ko:system/modules/tuner-xc2028.ko \
