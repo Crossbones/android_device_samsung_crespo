@@ -67,6 +67,12 @@ on fs
 # Permissions for System Server and daemons.
     chown system system /sys/class/backlight/s5p_bl/brightness
 
+# Permissions for CPU
+    chown system system /sys/devices/system/cpu/cpu0/cpufreq/scaling_governor
+    chown system system /sys/devices/system/cpu/cpu0/cpufreq/scaling_max_freq
+    chown system system /sys/devices/system/cpu/cpu0/cpufreq/scaling_min_freq
+    chown system system /sys/block/mtdblock4/queue/scheduler
+
 on post-fs-data
 # wi-fi
     mkdir /data/misc/wifi/sockets 0770 wifi wifi
