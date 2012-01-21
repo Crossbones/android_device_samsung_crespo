@@ -224,30 +224,8 @@ endif
 
 PRODUCT_COPY_FILES += \
 	$(LOCAL_WIFI_MODULE):system/modules/bcm4329.ko \
-        device/samsung/crespo/modules/ansi_cprng.ko:system/modules/ansi_cprng.ko \
-        device/samsung/crespo/modules/gspca_main.ko:system/modules/gspca_main.ko \
-        device/samsung/crespo/modules/max2165.ko:system/modules/max2165.ko \
-        device/samsung/crespo/modules/mc44s803.ko:system/modules/mc44s803.ko \
-        device/samsung/crespo/modules/mt20xx.ko:system/modules/mt20xx.ko \
-        device/samsung/crespo/modules/mt2060.ko:system/modules/mt2060.ko \
-        device/samsung/crespo/modules/mt2131.ko:system/modules/mt2131.ko \
-        device/samsung/crespo/modules/mt2266.ko:system/modules/mt2266.ko \
-        device/samsung/crespo/modules/mxl5005s.ko:system/modules/mxl5005s.ko \
-        device/samsung/crespo/modules/mxl5007t.ko:system/modules/mxl5007t.ko \
-        device/samsung/crespo/modules/qt1010.ko:system/modules/qt1010.ko \
         device/samsung/crespo/modules/scsi_wait_scan.ko:system/modules/scsi_wait_scan.ko \
-        device/samsung/crespo/modules/tda827x.ko:system/modules/tda827x.ko \
-        device/samsung/crespo/modules/tda8290.ko:system/modules/tda8290.ko \
-        device/samsung/crespo/modules/tda9887.ko:system/modules/tda9887.ko \
-        device/samsung/crespo/modules/tda18212.ko:system/modules/tda18212.ko \
-        device/samsung/crespo/modules/tda18218.ko:system/modules/tda18218.ko \
-        device/samsung/crespo/modules/tda18271.ko:system/modules/tda18271.ko \
-        device/samsung/crespo/modules/tea5761.ko:system/modules/tea5761.ko \
-        device/samsung/crespo/modules/tea5767.ko:system/modules/tea5767.ko \
-        device/samsung/crespo/modules/tuner-simple.ko:system/modules/tuner-simple.ko \
-        device/samsung/crespo/modules/tuner-types.ko:system/modules/tuner-types.ko \
-        device/samsung/crespo/modules/tuner-xc2028.ko:system/modules/tuner-xc2028.ko \
-        device/samsung/crespo/modules/xc5000.ko:system/modules/xc5000.ko
+
 
 # Kernel lib setup
 PRODUCT_COPY_FILES += \
