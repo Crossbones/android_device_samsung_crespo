@@ -51,7 +51,7 @@ on boot
     write /proc/sys/vm/swappiness 0
     write /proc/sys/vm/dirty_ratio 90
     write /proc/sys/vm/panic_on_oom 0
-    write /proc/sys/vm/vfs_cache_pressure 30
+    write /proc/sys/vm/vfs_cache_pressure 50
 
 on fs
     mkdir /efs 0775 radio radio
