@@ -238,9 +238,12 @@ PRODUCT_COPY_FILES += \
 # Kernel modules
 PRODUCT_COPY_FILES += \
 	device/samsung/crespo/modules/ansi_cprng.ko:system/modules/ansi_cprng.ko \
+	device/samsung/crespo/modules/cifs.ko:system/modules/cifs.ko \
+	device/samsung/crespo/modules/fuse.ko:system/modules/fuse.ko \
     device/samsung/crespo/modules/gspca_main.ko:system/modules/gspca_main.ko \
     device/samsung/crespo/modules/max2165.ko:system/modules/max2165.ko \
     device/samsung/crespo/modules/mc44s803.ko:system/modules/mc44s803.ko \
+	device/samsung/crespo/modules/md4.ko:system/modules/md4.ko \
     device/samsung/crespo/modules/mt20xx.ko:system/modules/mt20xx.ko \
     device/samsung/crespo/modules/mt2060.ko:system/modules/mt2060.ko \
     device/samsung/crespo/modules/mt2131.ko:system/modules/mt2131.ko \
