@@ -165,6 +165,9 @@ PRODUCT_PACKAGES += \
 	libstagefrighthw \
 	com.android.future.usb.accessory
 
+PRODUCT_COPY_FILES += \
+    device/samsung/crespo/libhw/lights.s5pc110.so:system/lib/hw/lights.s5pc110.so
+
 # Input device calibration files
 PRODUCT_COPY_FILES += \
 	device/samsung/crespo/mxt224_ts_input.idc:system/usr/idc/mxt224_ts_input.idc
