@@ -27,21 +27,6 @@ on boot
     chown gps root /sys/class/sec/gps/GPS_PWR_EN/value
     chmod 660 /sys/class/sec/gps/GPS_PWR_EN/value
 
-# Memory management.  Basic kernel parameters, and allow the high
-# level system server to be able to adjust the kernel OOM driver
-# parameters to match how it is managing things.
-    write /proc/sys/vm/overcommit_memory 1
-    write /proc/sys/vm/overcommit_ratio 50
-    write /proc/sys/vm/min_free_order_shift 4
-    write /proc/sys/vm/dirty_writeback_centisecs 500
-    write /proc/sys/vm/dirty_expire_centisecs 200
-    write /proc/sys/vm/dirty_background_ratio  60
-    write /proc/sys/vm/min_free_kbytes 4096
-    write /proc/sys/vm/swappiness 0
-    write /proc/sys/vm/dirty_ratio 90
-    write /proc/sys/vm/panic_on_oom 0
-    write /proc/sys/vm/vfs_cache_pressure 50
-
 on fs
     mkdir /efs 0775 radio radio
     mount yaffs2 mtd@efs /efs noatime nosuid nodev
